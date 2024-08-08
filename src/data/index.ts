@@ -13,19 +13,19 @@ interface IData {
 const data: IData[] = [
   {
     user: {
-      nickname: "eggsy_dev",
-      avatar: "https://i.imgur.com/7OXeSik.jpg",
+      nickname: "benli.dev",
+      avatar: "https://i.imgur.com/6jbHJ0L.jpeg",
     },
     image: "https://i.imgur.com/XIe1ewy.jpg",
     description: "🌸 Really cool flower.",
   },
   {
     user: {
-      nickname: "johndoe",
-      avatar: "https://i.imgur.com/Wt8z8Oz.jpg",
+      nickname: "imranninanc",
+      avatar: "https://i.imgur.com/DBcqeHG.jpeg",
     },
-    image: "https://i.imgur.com/6KNoPdQ.jpg",
-    description: "A random user",
+    image: "https://i.imgur.com/P3bZgl3.jpeg",
+    description: "",
   },
   {
     user: {
@@ -97,11 +97,11 @@ const data: IData[] = [
   },
 ].map(
   (item, index) =>
-    ({
-      ...item,
-      image: `https://proxy.duckduckgo.com/iu/?u=${item.image}`,
-      storySeen: !index,
-    } as IData)
+  ({
+    ...item,
+    image: `https://proxy.duckduckgo.com/iu/?u=${item.image}`,
+    storySeen: !index,
+  } as IData)
 );
 
 export default data;

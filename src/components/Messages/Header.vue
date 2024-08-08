@@ -6,7 +6,7 @@ import DocumentIcon from "~icons/tabler/file-pencil";
 import SearchIcon from "~icons/tabler/search";
 import SettingsIcon from "~icons/tabler/adjustments-horizontal";
 
-const username = "eggsy_dev";
+const username = "benli.dev";
 </script>
 
 <template>

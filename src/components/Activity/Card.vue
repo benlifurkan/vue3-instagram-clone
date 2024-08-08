@@ -16,7 +16,7 @@ withDefaults(
 
 const followed = ref(false);
 const mockValues = [
-  "$1 mentioned you in a comment: @eggsy_dev",
+  "$1 mentioned you in a comment: @benli.dev",
   "$1 liked your comment: Amazing 🔥",
   "$1 and 4 others liked your story.",
   "$1 liked your post.",
@@ -25,7 +25,7 @@ const mockValues = [
 
 const mockNames = data
   .map((item) => item.user.nickname)
-  .filter((item) => item !== "eggsy_dev");
+  .filter((item) => item !== "benli.dev");
 
 const getRandomType = Math.random() > 0.7 ? "follow" : "random";
 const getRandomBooleanValue = Math.random() > 0.5;
@@ -52,7 +52,7 @@ const findPersonAvatar = () => {
 <template>
   <div class="flex items-center space-x-4">
     <StoryBox
-      username="eggsy_dev"
+      username="benli.dev"
       size="sm"
       :put-username="false"
       :avatar="findPersonAvatar() || ''"

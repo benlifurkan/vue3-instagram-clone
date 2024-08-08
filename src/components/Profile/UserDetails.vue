@@ -1,7 +1,7 @@
 <template>
   <section class="px-4 py-1">
     <h1 class="font-semibold">
-      Abdulbaki Dursun
+      Furkan Benli
       <span class="text-black/50 text-sm font-normal">he/him</span>
     </h1>
 
@@ -13,6 +13,8 @@
       dolorem! ⬇️
     </p>
 
-    <a title="Visit website" class="text-sm text-blue-500">www.eggsy.xyz/</a>
+    <a title="Visit website" class="text-sm text-blue-500"
+      >www.furkanbenli.com/</a
+    >
   </section>
 </template>
