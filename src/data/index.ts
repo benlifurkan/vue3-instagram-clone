@@ -21,10 +21,10 @@ const data: IData[] = [
   },
   {
     user: {
-      nickname: "imranninanc",
-      avatar: "https://i.imgur.com/DBcqeHG.jpeg",
+      nickname: "mellcavoglu",
+      avatar: "https://i.imgur.com/hCSmQxp.png",
     },
-    image: "https://i.imgur.com/P3bZgl3.jpeg",
+    image: "https://i.imgur.com/ufl07Pu.png",
     description: "",
   },
   {
