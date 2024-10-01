@@ -21,11 +21,11 @@ const data: IData[] = [
   },
   {
     user: {
-      nickname: "mellcavoglu",
-      avatar: "https://i.imgur.com/hCSmQxp.png",
+      nickname: "4rzu67",
+      avatar: "https://i.imgur.com/YDG18mx.png",
     },
-    image: "https://i.imgur.com/ufl07Pu.png",
-    description: "",
+    image: "https://i.imgur.com/cX0ur97.png",
+    description: "🤍",
   },
   {
     user: {
@@ -97,11 +97,11 @@ const data: IData[] = [
   },
 ].map(
   (item, index) =>
-  ({
-    ...item,
-    image: `https://proxy.duckduckgo.com/iu/?u=${item.image}`,
-    storySeen: !index,
-  } as IData)
+    ({
+      ...item,
+      image: `https://proxy.duckduckgo.com/iu/?u=${item.image}`,
+      storySeen: !index,
+    } as IData)
 );
 
 export default data;
