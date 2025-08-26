@@ -4,7 +4,7 @@ import StoryBox from "../Story/Box.vue";
 
 <template>
   <div class="px-4 py-2 flex justify-between gap-4">
-    <StoryBox avatar="https://i.imgur.com/6jbHJ0L.jpeg" size="lg" />
+    <StoryBox avatar="https://i.imgur.com/JQ2LGnf.png" size="lg" />
 
     <div
       class="flex text-[15px] items-center space-x-4 flex-grow justify-center"
@@ -15,12 +15,12 @@ import StoryBox from "../Story/Box.vue";
       </div>
 
       <div class="leading-tight text-center">
-        <h3 class="font-medium">573</h3>
+        <h3 class="font-medium">198</h3>
         <span>Followers</span>
       </div>
 
       <div class="leading-tight text-center">
-        <h3 class="font-medium">432</h3>
+        <h3 class="font-medium">482</h3>
         <span>Following</span>
       </div>
     </div>

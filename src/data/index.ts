@@ -14,18 +14,10 @@ const data: IData[] = [
   {
     user: {
       nickname: "benli.dev",
-      avatar: "https://i.imgur.com/6jbHJ0L.jpeg",
+      avatar: "https://i.imgur.com/JQ2LGnf.png",
     },
-    image: "https://i.imgur.com/XIe1ewy.jpg",
-    description: "🌸 Really cool flower.",
-  },
-  {
-    user: {
-      nickname: "4rzu67",
-      avatar: "https://i.imgur.com/YDG18mx.png",
-    },
-    image: "https://i.imgur.com/cX0ur97.png",
-    description: "🤍",
+    image: "https://i.imgur.com/BBreAOB.png",
+    description: "Accepted.",
   },
   {
     user: {
